@@ -1,5 +1,3 @@
-package basics.conditionals;
-
 public class IfElse {
     public static void main(String[] args) {
         int numero = 10;
