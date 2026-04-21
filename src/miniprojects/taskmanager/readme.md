@@ -28,6 +28,6 @@ Praticar conceitos básicos de:
 ## Como executar
 
 ```bash
-javac src/main/Main.java
-java main.Main
+javac -d out src/miniprojects/taskmanager/model/*.java src/miniprojects/taskmanager/service/*.java src/miniprojects/taskmanager/main/*.java
+java -cp out miniprojects.taskmanager.main.Main
 ```
